@@ -17,7 +17,6 @@ public class TestController {
     @GetMapping()
     public List<String> getList(){
         return List.of("Chaine de caractère transmise 1", "Chaine de caractère transmise 2");
-
     }
 
 }
